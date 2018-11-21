@@ -1,11 +1,5 @@
 '''
-Albert is stranded on a frozen lake. He wants to know if he can make it back to shore. He is currently on a snowbank that gives him some traction,
-but once he steps on the ice, he will slide in the same direction until he hits another snowbank.
-There are also treacherous holes in the ice that he must avoid. As a cruel twist of fate, Albert's young pup, Kuna, is also stranded,
-but on a different snowbank. Can Albert reach his pup AND make it to shore? Albert can only move horizontally and vertically.
-He makes it to shore by leaving the lake grid Input Format side length the length of a side of the lake (it's a square)
-lake grid a 2D matrix representing the lake 0 ice, 1 snowbank, -1 hole albert row row of Albert's snowbank albert column column of Albert's
-snowbank kuna row row of Kuna's snowbank kuna column column of Kuna's snowbank Output Format integer True if he escapes with pup, False if he does not
+Given a matrix. Design an algorithm to find local minima. i.e. strictly smaller than all of its four neighbours
 '''
 
 def findMin(array):
